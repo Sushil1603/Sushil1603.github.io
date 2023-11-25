@@ -1,0 +1,101 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+
+/* .worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.worksImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+} */
+
+.projectBars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100vw;
+    max-width: 65rem;
+    margin-top: 1rem;
+}
+
+.projectBar {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.projectBar .links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.projectBar .links a {
+    padding: 0.5rem 0.4rem;
+    background-color: #111111;
+    color: white;
+    border-radius: 0.4rem;
+    border: none;
+}
+.projectBar .links a:hover{
+    text-decoration: underline;
+}
+
+.projectBar img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+
+.techs {
+    margin: 0.5rem auto;
+}
+
+.techs span {
+    color: yellow;
+}
+
+.workBtn {
+    margin: 3rem 2rem;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 585px) {
+
+    .worksImg {
+        height: 50vw;
+    }
+
+}
