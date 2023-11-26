@@ -5,7 +5,8 @@ import Skills from './Components/Skills/skills'
 import Portfolio from './Components/Portfolio/portfolio'
 import Contact from './Components/Contact/contact'
 import Footer from './Components/Footer/Footer'
-import About from './About/about'
+import About from './Components/About/about'
+import "./App.css"
 
 const App = () => {
   return (

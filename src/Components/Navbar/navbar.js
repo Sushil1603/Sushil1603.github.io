@@ -27,7 +27,6 @@ const Navbar = () => {
         if (newWindow) {
             newWindow.opener = null;
         } else {
-            // If pop-up is blocked, fallback to direct download
             window.location.href = resume;
         }
     };
