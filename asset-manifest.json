@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd5481af.css",
+    "main.js": "/static/js/main.b79d2076.js",
+    "static/media/project3.png": "/static/media/project3.952e3ea756b9ba720586.png",
+    "static/media/project2.png": "/static/media/project2.2f710c606515dc20a33b.png",
+    "static/media/project1.png": "/static/media/project1.ef649242ff7b55e972b0.png",
+    "static/media/Sushil_Sharma_Resume.pdf": "/static/media/Sushil_Sharma_Resume.29f2f76d2e55d5801426.pdf",
+    "static/media/image1.png": "/static/media/image1.bacee05f5f0919e0f3da.png",
+    "static/media/project4.png": "/static/media/project4.d8be21cab79733ac5ce8.png",
+    "static/media/about.png": "/static/media/about.48128853074728de6dda.png",
+    "static/media/ui-design.png": "/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/mongo.png": "/static/media/mongo.e1e8bd28f742bf598ee2.png",
+    "index.html": "/index.html",
+    "main.dd5481af.css.map": "/static/css/main.dd5481af.css.map",
+    "main.b79d2076.js.map": "/static/js/main.b79d2076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd5481af.css",
+    "static/js/main.b79d2076.js"
+  ]
+}
