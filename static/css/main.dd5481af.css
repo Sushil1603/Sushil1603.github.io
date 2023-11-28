@@ -495,10 +495,15 @@
 .aboutTitle {
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     padding-top: 3rem
 }
 
+.aboutTitle2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+}
 .aboutBars {
     align-items: center;
     display: flex;
