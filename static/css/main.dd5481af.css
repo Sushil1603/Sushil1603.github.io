@@ -151,11 +151,18 @@
 
 @media screen and (max-width:840px) {
     .bg {
-        right: -10vw
+        height: 40vh;
+        right: 1rem;
+        top: 20rem;
     }
 
     .introContent {
-        font-size: 10vw
+        font-size: 8vw;
+        
+    }
+    .bg{
+    display: block;
+    
     }
 
     .hello {
@@ -164,8 +171,14 @@
 }
 
 @media screen and (max-width:480px) {
-    .bg {
-        right: -20vw
+    .introContent{
+        height: 40vh;
+        margin-top: 18rem;
+    }
+    .bg{
+        top: 5px;
+        left: 35px;
+        height: 20rem;
     }
 }
 
@@ -250,10 +263,23 @@
     margin-top: 1rem
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
     .skillBarText>p {
         font-size: 2vw
     }
+
+    .githubBars {
+        
+        flex-direction: column;
+        
+    }
+    .githubBar{
+        width: 90vw;
+    }
+    .githubBar img{
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width:480px) {
@@ -281,7 +307,7 @@
     min-height: calc(100vh - 4rem);
     padding: 0 1rem;
     text-align: center;
-    width: 100vw
+    width: 100vw;
 }
 
 .worksTitle {
@@ -298,7 +324,7 @@
 .projectBars {
     grid-gap: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 1rem;
     max-width: 65rem;
     width: 100vw
@@ -362,6 +388,8 @@
     }
 }
 
+
+
 #contact {
     align-items: center;
     display: flex;
@@ -372,35 +400,12 @@
     min-height: calc(100vh - 4rem);
     padding-top: 2rem;
     text-align: center;
-    width: 100vw
+    width: 100vw;
 }
 
 .contactPageTitle {
     font-size: 3rem;
     margin-bottom: 1rem
-}
-
-.clientDesc {
-    font-size: 1rem;
-    font-weight: 300
-}
-
-.clientImgs {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1rem 0
-}
-
-.clientImg {
-    margin: auto;
-    min-width: 9rem;
-    object-fit: cover;
-    padding: .25rem;
-    width: 23%
-}
-
-#clients {
-    padding: 2rem
 }
 
 .contactDesc {
@@ -476,15 +481,29 @@
     height: 4rem
 }
 
-#about,
+
 .footer {
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 100vw
+    width: 100vw;
+}
+
+@media screen and (max-width : 480px) {
+    .contactDetails {
+        align-items: start;
+        display: flex;
+        padding-left: 4.5rem;
+        flex-direction: column;
+    }
+    
 }
 
 #about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
     flex-direction: column;
     margin: 0 auto;
     max-width: 65rem;
@@ -495,15 +514,10 @@
 .aboutTitle {
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     padding-top: 3rem
 }
 
-.aboutTitle2 {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-bottom: 1.4rem;
-}
 .aboutBars {
     align-items: center;
     display: flex;
@@ -520,6 +534,53 @@
     transform: scale(101%)
 }
 
+@media screen and (max-width : 768px) {
+    .aboutBars {
+        align-items: center;
+        display: flex;
+        gap: 3rem;
+        text-align: start;
+    }
+    .aboutImg img {
+        border-radius: 1rem;
+        width: 300px
+    }
+    #about{
+        padding: 0 1rem;
+    }
+    .skillBars {
+         max-width: 98%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .aboutBars {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        text-align: start;
+    }
+    .aboutImg img {
+        border-radius: 1rem;
+        width: 315px;
+        margin: auto;
+    }
+    .skillBar {
+        padding: 1rem;
+    }
+    .backEndBars, .frontEndBars, .toolBars {
+        align-items: center;
+        display: flex;
+        gap: 12px;
+        margin-top: .8rem;
+        width: 85vw;
+        border: 1px solid yellow;
+    }
+    .backEndBars, .frontEndBars, .toolBars img {
+        width: 50px;
+    }
+}
 * {
     background: #0000;
     box-sizing: border-box;
