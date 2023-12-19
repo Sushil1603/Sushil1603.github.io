@@ -90,7 +90,17 @@
     padding: .5rem 3rem
 }
 
-@media screen and (max-width:720px) {
+.listItemBtn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 40px;
+    font-size: 1.1rem;
+    
+}
+
+@media screen and (max-width:775px) {
     .mobMenu {
         display: flex
     }
@@ -170,7 +180,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:775px) {
     .introContent{
         height: 40vh;
         margin-top: 18rem;
@@ -576,12 +586,13 @@
     .backEndBars, .frontEndBars, .toolBars {
         align-items: center;
         display: flex;
+        flex-wrap: wrap;
         gap: 12px;
         margin-top: .8rem;
         width: 85vw;
-        border: 1px solid yellow;
+        border: 1px solid #323232;
     }
-    .backEndBars, .frontEndBars, .toolBars img {
+    .backEndBars img, .frontEndBars img, .toolBars img {
         width: 50px;
     }
 }
