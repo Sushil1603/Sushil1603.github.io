@@ -22652,7 +22652,7 @@
                           }),
                           (0, o.jsx)("a", {
                             className: "project-deployed-link",
-                            href: "https://harmonious-platypus-b8c9a1.netlify.app/",
+                            href: "https://illustrious-sunburst-7476a7.netlify.app/",
                             rel: "noreferrer",
                             target: "_blank",
                             children: "Website Link",
